@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "vs-skills",
+  "description": "Verified Solutions' single source of truth for vetted agent skills.",
+  "owner": { "name": "Winston Ceasear", "email": "wceasear5@gmail.com" },
+  "plugins": [
+    {
+      "name": "vs-skills",
+      "description": "Vetted skills for every Verified Solutions build.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
