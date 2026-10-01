@@ -15,5 +15,5 @@ Every skill here was read in full and scanned before adding: license OK; no cred
 | no-ai-slop | github.com/petergyang/no-ai-slop | 000650b | MIT | 2026-09-27 |
 
 Notes:
-- caveman and ponytail activate on coding sessions; say "stop caveman" / "stop ponytail" to turn off.
+- **Local deviation from upstream (v1.0.1, 2026-10-01):** `caveman` and `ponytail` each carry one added frontmatter line, `disable-model-invocation: true`, so they run only when typed (`/vs-skills:caveman`, `/vs-skills:ponytail`) and never automatically. Everything else in those files is unchanged. Reason: Claude Code's `skillOverrides` setting does not apply to plugin skills, so the skill file is the only place to set this. Say "stop caveman" / "stop ponytail" to turn one off mid-session.
 - webapp-testing/scripts/with_server.py runs the local dev-server command you pass it (shell=True). Local use only.

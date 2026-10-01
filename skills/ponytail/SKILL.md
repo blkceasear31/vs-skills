@@ -15,6 +15,8 @@ description: >
   summaries, recipes).
 argument-hint: "[lite|full|ultra]"
 license: MIT
+# vs-skills local change (not in upstream): run only when typed, never automatically.
+disable-model-invocation: true
 ---
 
 # Ponytail

@@ -1,6 +1,9 @@
 {
   "name": "vs-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verified Solutions' vetted agent skills: Supabase/Postgres, React/Next.js, testing, design, security, lean code, terse output, clean writing.",
-  "author": { "name": "Winston Ceasear", "email": "wceasear5@gmail.com" }
+  "author": {
+    "name": "Winston Ceasear",
+    "email": "wceasear5@gmail.com"
+  }
 }

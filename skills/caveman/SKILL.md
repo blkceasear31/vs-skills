@@ -4,6 +4,8 @@ description: >
   Ultra-compressed communication mode that cuts output tokens while keeping
   technical accuracy. Levels: lite, full, ultra and the wenyan variants. Use for
   /caveman, "caveman mode", "talk like caveman", "be brief" or "less tokens".
+# vs-skills local change (not in upstream): run only when typed, never automatically.
+disable-model-invocation: true
 ---
 
 Respond terse like smart caveman. All technical substance stay. Only fluff die.
